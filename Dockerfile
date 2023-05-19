@@ -8,4 +8,6 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-CMD  python ./stda/manage.py runserver 8000
+EXPOSE 8080
+
+CMD  python ./stda/manage.py runserver 8080
