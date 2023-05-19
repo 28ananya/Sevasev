@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8080
 
-CMD  python ./stda/manage.py runserver 8080
+CMD ["python","./stda/manage.py", "runserver"]
